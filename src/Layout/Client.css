@@ -1,0 +1,18 @@
+.client-main {
+    width:100%;
+    height:auto;
+    
+}
+.client-main-details-row {
+    margin: 1rem;
+    text-align: center;
+}
+.client-main-details-info {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 30vw;
+    padding:1.2rem;
+    background-color: rgb(88, 79, 79);
+    margin: 1rem;
+}

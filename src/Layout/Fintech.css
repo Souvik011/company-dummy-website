@@ -1,0 +1,66 @@
+.fintech{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(36, 36, 216);
+    color:whitesmoke;
+    transition-delay: 0.2s;
+}
+.smart-education {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(11, 11, 12);
+    color:whitesmoke;
+}
+.main-text {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 44vw;
+    text-align: center;
+}
+.head  {
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+}
+.head-info  {
+    font-size: medium;
+    color: rgba(240, 255, 255, 0.555);
+    
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+   
+}
+.info p {
+    border: .5px transparent white;
+    font-size: smaller;
+    background-color: rgba(136, 154, 214, 0.541);
+    border-radius: 40%;
+    width: 9rem fit-content;
+    padding:10px
+}
+
+.text {
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+}
+.view  {
+    padding:14px;
+    font-size:medium;
+    border: 1px solid white;
+    border-radius: 40%;
+    height: 3rem;
+    width: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.view:hover {
+    background-color: blue;
+}

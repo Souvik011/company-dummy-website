@@ -1,0 +1,30 @@
+
+.main--component {
+    background: url('../Images/Embarace.jpeg') no-repeat center center fixed ;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 6rem;
+    color: azure;
+    font-family: sans-serif;
+    text-align: center;
+}
+section{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.main--head {
+    font-size: 5vw;
+}
+.main--paragraph {
+   font-size: 3vw;
+}
